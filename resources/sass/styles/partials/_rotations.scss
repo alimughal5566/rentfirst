@@ -1,0 +1,157 @@
+/*      Rotations      */
+
+@for $i from 0 through 360 {
+
+    //Forward Rotate
+    .rotate-#{$i} {
+        -webkit-transform: rotate(#{$i}deg);
+        -ms-transform: rotate(#{$i}deg);
+        transform: rotate(#{$i}deg);
+    }
+    //Forward Rotate End
+
+    //Backward Rotate Start
+    .rotate-n#{$i} {
+        -webkit-transform: rotate(-#{$i}deg);
+        -ms-transform: rotate(-#{$i}deg);
+        transform: rotate(-#{$i}deg);
+    }
+    //Backward Rotate End
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    @for $i from 0 through 360 {
+
+        //Forward Rotate
+        .rotate-sm-#{$i} {
+            -webkit-transform: rotate(#{$i}deg);
+            -ms-transform: rotate(#{$i}deg);
+            transform: rotate(#{$i}deg);
+        }
+        //Forward Rotate End
+
+        //Backward Rotate Start
+        .rotate-sm-n#{$i} {
+            -webkit-transform: rotate(-#{$i}deg);
+            -ms-transform: rotate(-#{$i}deg);
+            transform: rotate(-#{$i}deg);
+        }
+        //Backward Rotate End
+
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    @for $i from 0 through 360 {
+
+        //Forward Rotate
+        .rotate-md-#{$i} {
+            -webkit-transform: rotate(#{$i}deg);
+            -ms-transform: rotate(#{$i}deg);
+            transform: rotate(#{$i}deg);
+        }
+        //Forward Rotate End
+
+        //Backward Rotate Start
+        .rotate-md-n#{$i} {
+            -webkit-transform: rotate(-#{$i}deg);
+            -ms-transform: rotate(-#{$i}deg);
+            transform: rotate(-#{$i}deg);
+        }
+        //Backward Rotate End
+
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    @for $i from 0 through 360 {
+
+        //Forward Rotate
+        .rotate-lg-#{$i} {
+            -webkit-transform: rotate(#{$i}deg);
+            -ms-transform: rotate(#{$i}deg);
+            transform: rotate(#{$i}deg);
+        }
+        //Forward Rotate End
+
+        //Backward Rotate Start
+        .rotate-lg-n#{$i} {
+            -webkit-transform: rotate(-#{$i}deg);
+            -ms-transform: rotate(-#{$i}deg);
+            transform: rotate(-#{$i}deg);
+        }
+        //Backward Rotate End
+
+    }
+
+}
+
+/* Customized Media Queries (min Width, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    @for $i from 0 through 360 {
+
+        //Forward Rotate
+        .rotate-xl-#{$i} {
+            -webkit-transform: rotate(#{$i}deg);
+            -ms-transform: rotate(#{$i}deg);
+            transform: rotate(#{$i}deg);
+        }
+        //Forward Rotate End
+
+        //Backward Rotate Start
+        .rotate-xl-n#{$i} {
+            -webkit-transform: rotate(-#{$i}deg);
+            -ms-transform: rotate(-#{$i}deg);
+            transform: rotate(-#{$i}deg);
+        }
+        //Backward Rotate End
+
+    }
+
+}
+
+/* Extra extra large devices (1400px and up)*/
+@media (min-width: 1400px) {
+
+    @for $i from 0 through 360 {
+
+        //Forward Rotate
+        .rotate-xxl-#{$i} {
+            -webkit-transform: rotate(#{$i}deg);
+            -ms-transform: rotate(#{$i}deg);
+            transform: rotate(#{$i}deg);
+        }
+        //Forward Rotate End
+
+        //Backward Rotate Start
+        .rotate-xxl-n#{$i} {
+            -webkit-transform: rotate(-#{$i}deg);
+            -ms-transform: rotate(-#{$i}deg);
+            transform: rotate(-#{$i}deg);
+        }
+        //Backward Rotate End
+
+    }
+
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+}
+
+/*      /Rotations      */

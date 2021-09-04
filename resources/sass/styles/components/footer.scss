@@ -1,0 +1,77 @@
+/*      COLOR VARIABLES      */
+@use '../partials/colorVariable' as color;
+/*      COLOR VARIABLES      */
+
+/*      FONT VARIABLES      */
+@use '../partials/fontVariable' as font;
+/*      FONT VARIABLES      */
+
+/*      MIXINS      */
+@use "../partials/mixin" as mix;
+/*      /MIXINS      */
+
+/*      FOOTER      */
+
+footer {
+
+  .footer-content {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    @include mix.shadow-custom-bottom;
+
+    .footer-title {
+      color: color.$tertiary;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      min-height: 40px;
+      font-weight: bold;
+      font-size: 1rem;
+      font-family: font.$font-montserrat;
+    }
+
+    .footer-title-wrap {
+
+    }
+
+    .footer-content-wrap {
+      box-shadow: 0 -0.5rem 0.7rem 0 rgba(0, 0, 0, 0.2);
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      background-color: color.$primary;
+      color:  color.$white;
+
+      .footer-col {
+
+        ul {
+
+          &.footer-nav {
+
+            li {
+
+              a {
+                color: color.$white !important;
+                line-height: 1.75;
+                font-size: 0.9rem;
+
+                &:hover, &:focus, &:active {
+                  color: color.$tertiary !important;
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+/*      /FOOTER      */

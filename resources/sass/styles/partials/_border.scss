@@ -1,0 +1,39 @@
+//  Border Start
+@for $i from 0 through 25 {
+
+    .border-width-#{$i} {
+        border-width: $i*1px !important;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* Customized Media Queries (min Width, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* Extra extra large devices (1400px and up)*/
+@media (min-width: 1400px) {
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+}
+
+//  /Border End

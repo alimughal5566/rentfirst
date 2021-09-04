@@ -1,0 +1,240 @@
+//Negative Margin Start
+
+@for $i from 0 through 16 {
+
+  .mg-n#{$i} {
+    margin: -#{$i/4}rem !important;
+  }
+
+  .mgx-n#{$i} {
+    margin-left: -#{$i/4}rem !important;
+    margin-right: -#{$i/4}rem !important;
+  }
+
+  .mgy-n#{$i} {
+    margin-top: -#{$i/4}rem !important;
+    margin-bottom: -#{$i/4}rem !important;
+  }
+
+  .mgt-n#{$i} {
+    margin-top: -#{$i/4}rem !important;
+  }
+
+  .mgr-n#{$i} {
+    margin-right: -#{$i/4}rem !important;
+  }
+
+  .mgb-n#{$i} {
+    margin-bottom: -#{$i/4}rem !important;
+  }
+
+  .mgl-n#{$i} {
+    margin-left: -#{$i/4}rem !important;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+  @for $i from 0 through 16 {
+
+    .mg-sm-n#{$i} {
+      margin: -#{$i/4}rem !important;
+    }
+
+    .mgx-sm-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgy-sm-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgt-sm-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+    }
+
+    .mgr-sm-n#{$i} {
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgb-sm-n#{$i} {
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgl-sm-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+    }
+
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+  @for $i from 0 through 16 {
+
+    .mg-md-n#{$i} {
+      margin: -#{$i/4}rem !important;
+    }
+
+    .mgx-md-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgy-md-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgt-md-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+    }
+
+    .mgr-md-n#{$i} {
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgb-md-n#{$i} {
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgl-md-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+    }
+
+  }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  @for $i from 0 through 16 {
+
+    .mg-lg-n#{$i} {
+      margin: -#{$i/4}rem !important;
+    }
+
+    .mgx-lg-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgy-lg-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgt-lg-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+    }
+
+    .mgr-lg-n#{$i} {
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgb-lg-n#{$i} {
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgl-lg-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+    }
+
+  }
+
+}
+
+/* Customized Media Queries (min Width, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+  @for $i from 0 through 16 {
+
+    .mg-xl-n#{$i} {
+      margin: -#{$i/4}rem !important;
+    }
+
+    .mgx-xl-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgy-xl-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgt-xl-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+    }
+
+    .mgr-xl-n#{$i} {
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgb-xl-n#{$i} {
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgl-xl-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+    }
+
+  }
+
+}
+
+/* Extra extra large devices (1400px and up)*/
+@media (min-width: 1400px) {
+
+  @for $i from 0 through 16 {
+
+    .mg-xxl-n#{$i} {
+      margin: -#{$i/4}rem !important;
+    }
+
+    .mgx-xxl-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgy-xxl-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgt-xxl-n#{$i} {
+      margin-top: -#{$i/4}rem !important;
+    }
+
+    .mgr-xxl-n#{$i} {
+      margin-right: -#{$i/4}rem !important;
+    }
+
+    .mgb-xxl-n#{$i} {
+      margin-bottom: -#{$i/4}rem !important;
+    }
+
+    .mgl-xxl-n#{$i} {
+      margin-left: -#{$i/4}rem !important;
+    }
+
+  }
+
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+}
+
+//Negative Margin End

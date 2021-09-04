@@ -1,0 +1,11 @@
+// Opacity Start
+
+@for $i from 0 through 100 {
+
+  .opaque-#{$i} {
+    opacity: $i/100;
+  }
+
+}
+
+// Opacity End

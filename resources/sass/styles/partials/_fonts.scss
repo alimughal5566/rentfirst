@@ -1,0 +1,89 @@
+@use 'fontVariable' as font;
+
+//  /Font Weight Addition
+
+//  Font Size Start
+
+@for $i from 0 through 50 {
+
+    .font-size-#{$i} {
+        font-size: #{$i/16}rem !important;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    @for $i from 0 through 50 {
+
+        .font-size-sm-#{$i} {
+            font-size: #{$i/16}rem !important;
+        }
+
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    @for $i from 0 through 50 {
+
+        .font-size-md-#{$i} {
+            font-size: #{$i/16}rem !important;
+        }
+
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    @for $i from 0 through 50 {
+
+        .font-size-lg-#{$i} {
+            font-size: #{$i/16}rem !important;
+        }
+
+    }
+
+}
+
+/* Customized Media Queries (min Width, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    @for $i from 0 through 50 {
+
+        .font-size-xl-#{$i} {
+            font-size: #{$i/16}rem !important;
+        }
+
+    }
+
+}
+
+/* Extra extra large devices (1440px and up)*/
+@media (min-width: 1440px) {
+
+    @for $i from 0 through 50 {
+
+        .font-size-xxl-#{$i} {
+            font-size: #{$i/16}rem !important;
+        }
+
+    }
+
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+
+}
+
+//  /Font Size End

@@ -1,0 +1,27 @@
+@use 'colorVariable' as color;
+@use 'mixin' as mix;
+
+@each $name, $color in color.$color-range {
+    /*      Backgrounds      */
+    .background-#{$name} {
+        @include mix.background-color($color);
+    }
+    /*      /Backgrounds      */
+
+    /*      Colors      */
+    .color-#{$name} {
+        @include mix.color($color);
+    }
+    /*      /Colors      */
+
+    /*      Border-Color      */
+    .border-#{$name} {
+        @include mix.border-color($color);
+    }
+    /*      /Border-Color      */
+
+}
+
+.background-transparent {
+    background-color: transparent;
+}

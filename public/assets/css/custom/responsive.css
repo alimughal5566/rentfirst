@@ -1,0 +1,113 @@
+/*      VARIABLES      */
+/*      VARIABLES      */
+/*      VARIABLES      */
+/*      VARIABLES      */
+/*      FONT VARIABLES      */
+/*      FONT VARIABLES      */
+/*      MIXINS      */
+/*      /MIXINS      */
+/* DESKTOP FIRST MEDIA QUERIES */
+/* Extra Large devices (desktops, less than 1400px)*/
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+  .section-padding {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+/* Custom Media Query (desktops, less than 1024px)*/
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .adds-wrapper .item-list {
+    width: 46% !important;
+  }
+  .adds-wrapper .item-list .cornerRibbons {
+    left: -18.5% !important;
+    top: 5% !important;
+  }
+  .adds-wrapper .load-more a.btn {
+    font-size: 1rem;
+    border-width: 0.15rem !important;
+  }
+  .adds-wrapper .load-more a.btn:hover, .adds-wrapper .load-more a.btn:focus, .adds-wrapper .load-more a.btn:active {
+    border-width: 0.2rem !important;
+  }
+
+  .item-page .adds-wrapper .item-list {
+    width: 33% !important;
+  }
+}
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .header .header-nav-wrap .dropdown {
+    width: 100%;
+  }
+  .header .header-nav-wrap .dropdown .dropdown-toggle {
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .header .header-nav-wrap .dropdown .dropdown-menu {
+    top: unset !important;
+    transform: unset !important;
+  }
+  .header .header-nav-wrap .navigation-special .dropdown-item {
+    max-width: 49%;
+    width: 100%;
+    padding: 0.25rem 0.75rem;
+  }
+  .header .header-nav-wrap .category-add {
+    margin: auto;
+  }
+
+  .wide-intro .search-row .search-col {
+    margin-bottom: 0.5rem;
+  }
+
+  .adds-wrapper {
+    justify-content: center;
+  }
+  .item-page .adds-wrapper .item-list {
+    width: 46% !important;
+  }
+
+  #countryMap {
+    width: 100% !important;
+  }
+  #countryMap svg {
+    width: 100%;
+  }
+
+  footer .footer-content .footer-title {
+    color: #fff;
+    font-size: 0.85rem;
+    padding-bottom: 0.25rem;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+/* Customized Media Queries (phones, less than 400px) */
+/* Extra small devices (portrait phones, less than 400px)*/
+/* Customized Media Queries (phones, less than 400px) */
+/* /DESKTOP FIRST MEDIA QUERIES */
+/**/
+/* MOBILE FIRST MEDIA QUERIES */
+/* Small devices (landscape phones, 576px and up)*/
+/* Medium devices (tablets, 768px and up)*/
+/* Large devices (desktops, 992px and up)*/
+/* Customized Media Queries (Min Width) */
+/* Customized Media Queries (Min Width) */
+/* Extra large devices (large desktops, 1200px and up)*/
+/* Extra extra large devices (1400px and up)*/
+/* Extra extra extra large devices (4K and up)*/
+/* /MOBILE FIRST MEDIA QUERIES */
+/**/
+/* MIXED SCREEN MEDIA QUERIES */
+/* /MIXED SCREEN MEDIA QUERIES */
+/**/
+/* COMBINED MEDIA QUERIES */
+/* /COMBINED MEDIA QUERIES */

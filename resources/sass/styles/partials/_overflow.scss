@@ -1,0 +1,220 @@
+//Overflow Start
+
+.overflow-x-hidden {
+  overflow-x: hidden !important;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden !important;
+}
+
+.overflow-x-visible {
+  overflow-x: visible !important;
+}
+
+.overflow-y-visible {
+  overflow-y: visible !important;
+}
+
+.overflow-x-auto {
+  overflow-x: auto !important;
+}
+
+.overflow-y-auto {
+  overflow-y: auto !important;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+  .overflow-sm-hidden {
+    overflow: hidden !important;
+  }
+
+  .overflow-sm-x-hidden {
+    overflow-x: hidden !important;
+  }
+
+  .overflow-sm-y-hidden {
+    overflow-y: hidden !important;
+  }
+
+  .overflow-sm-visible {
+    overflow: visible !important;
+  }
+
+  .overflow-sm-x-visible {
+    overflow-x: visible !important;
+  }
+
+  .overflow-sm-y-visible {
+    overflow-y: visible !important;
+  }
+
+  .overflow-sm-x-auto {
+    overflow-x: auto !important;
+  }
+
+  .overflow-sm-y-auto {
+    overflow-y: auto !important;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+  .overflow-md-hidden {
+    overflow: hidden !important;
+  }
+
+  .overflow-md-x-hidden {
+    overflow-x: hidden !important;
+  }
+
+  .overflow-md-y-hidden {
+    overflow-y: hidden !important;
+  }
+
+  .overflow-md-visible {
+    overflow: visible !important;
+  }
+
+  .overflow-md-x-visible {
+    overflow-x: visible !important;
+  }
+
+  .overflow-md-y-visible {
+    overflow-y: visible !important;
+  }
+
+  .overflow-md-x-auto {
+    overflow-x: auto !important;
+  }
+
+  .overflow-md-y-auto {
+    overflow-y: auto !important;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  .overflow-lg-hidden {
+    overflow: hidden !important;
+  }
+
+  .overflow-lg-x-hidden {
+    overflow-x: hidden !important;
+  }
+
+  .overflow-lg-y-hidden {
+    overflow-y: hidden !important;
+  }
+
+  .overflow-lg-visible {
+    overflow: visible !important;
+  }
+
+  .overflow-lg-x-visible {
+    overflow-x: visible !important;
+  }
+
+  .overflow-lg-y-visible {
+    overflow-y: visible !important;
+  }
+
+  .overflow-lg-x-auto {
+    overflow-x: auto !important;
+  }
+
+  .overflow-lg-y-auto {
+    overflow-y: auto !important;
+  }
+
+}
+
+/* Customized Media Queries (min Width, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+  .overflow-xl-hidden {
+    overflow: hidden !important;
+  }
+
+  .overflow-xl-x-hidden {
+    overflow-x: hidden !important;
+  }
+
+  .overflow-xl-y-hidden {
+    overflow-y: hidden !important;
+  }
+
+  .overflow-xl-visible {
+    overflow: visible !important;
+  }
+
+  .overflow-xl-x-visible {
+    overflow-x: visible !important;
+  }
+
+  .overflow-xl-y-visible {
+    overflow-y: visible !important;
+  }
+
+  .overflow-xl-x-auto {
+    overflow-x: auto !important;
+  }
+
+  .overflow-xl-y-auto {
+    overflow-y: auto !important;
+  }
+
+}
+
+/* Extra extra large devices (1400px and up)*/
+@media (min-width: 1400px) {
+
+  .overflow-xxl-hidden {
+    overflow: hidden !important;
+  }
+
+  .overflow-xxl-x-hidden {
+    overflow-x: hidden !important;
+  }
+
+  .overflow-xxl-y-hidden {
+    overflow-y: hidden !important;
+  }
+
+  .overflow-xxl-visible {
+    overflow: visible !important;
+  }
+
+  .overflow-xxl-x-visible {
+    overflow-x: visible !important;
+  }
+
+  .overflow-xxl-y-visible {
+    overflow-y: visible !important;
+  }
+
+  .overflow-xxl-x-auto {
+    overflow-x: auto !important;
+  }
+
+  .overflow-xxl-y-auto {
+    overflow-y: auto !important;
+  }
+
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+}
+
+//Overflow End

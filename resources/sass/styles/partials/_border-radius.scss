@@ -1,0 +1,211 @@
+//Border Radius Start
+
+@for $i from 0 through 50 {
+
+    .border-radius-#{$i} {
+        -webkit-border-radius: #{$i}px !important;
+        border-radius: #{$i}px !important;
+    }
+
+    .border-radius-top-left-#{$i} {
+        -webkit-border-top-left-radius: #{$i}px !important;
+        border-top-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-bottom-left-#{$i} {
+        -webkit-border-bottom-left-radius: #{$i}px !important;
+        border-bottom-left-radius: #{$i}px !important;
+    }
+
+    .border-radius-top-right-#{$i} {
+        -webkit-border-top-right-radius: #{$i}px !important;
+        border-top-right-radius: #{$i}px !important;
+    }
+
+    .border-radius-bottom-right-#{$i} {
+        -webkit-border-bottom-right-radius: #{$i}px !important;
+        border-bottom-right-radius: #{$i}px !important;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    @for $i from 0 through 50 {
+
+        .border-radius-sm-#{$i} {
+            -webkit-border-radius: #{$i}px !important;
+            border-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-left-sm-#{$i} {
+            -webkit-border-top-left-radius: #{$i}px !important;
+            border-top-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-left-sm-#{$i} {
+            -webkit-border-bottom-left-radius: #{$i}px !important;
+            border-bottom-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-right-sm-#{$i} {
+            -webkit-border-top-right-radius: #{$i}px !important;
+            border-top-right-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-right-sm-#{$i} {
+            -webkit-border-bottom-right-radius: #{$i}px !important;
+            border-bottom-right-radius: #{$i}px !important;
+        }
+
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    @for $i from 0 through 50 {
+
+        .border-radius-md-#{$i} {
+            -webkit-border-radius: #{$i}px !important;
+            border-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-left-md-#{$i} {
+            -webkit-border-top-left-radius: #{$i}px !important;
+            border-top-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-left-md-#{$i} {
+            -webkit-border-bottom-left-radius: #{$i}px !important;
+            border-bottom-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-right-md-#{$i} {
+            -webkit-border-top-right-radius: #{$i}px !important;
+            border-top-right-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-right-md-#{$i} {
+            -webkit-border-bottom-right-radius: #{$i}px !important;
+            border-bottom-right-radius: #{$i}px !important;
+        }
+
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    @for $i from 0 through 50 {
+
+        .border-radius-lg-#{$i} {
+            -webkit-border-radius: #{$i}px !important;
+            border-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-left-lg-#{$i} {
+            -webkit-border-top-left-radius: #{$i}px !important;
+            border-top-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-left-lg-#{$i} {
+            -webkit-border-bottom-left-radius: #{$i}px !important;
+            border-bottom-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-right-lg-#{$i} {
+            -webkit-border-top-right-radius: #{$i}px !important;
+            border-top-right-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-right-lg-#{$i} {
+            -webkit-border-bottom-right-radius: #{$i}px !important;
+            border-bottom-right-radius: #{$i}px !important;
+        }
+
+    }
+
+}
+
+/* Customized Media Queries (min Width, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    @for $i from 0 through 50 {
+
+        .border-radius-xl-#{$i} {
+            -webkit-border-radius: #{$i}px !important;
+            border-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-left-xl-#{$i} {
+            -webkit-border-top-left-radius: #{$i}px !important;
+            border-top-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-left-xl-#{$i} {
+            -webkit-border-bottom-left-radius: #{$i}px !important;
+            border-bottom-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-right-xl-#{$i} {
+            -webkit-border-top-right-radius: #{$i}px !important;
+            border-top-right-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-right-xl-#{$i} {
+            -webkit-border-bottom-right-radius: #{$i}px !important;
+            border-bottom-right-radius: #{$i}px !important;
+        }
+
+    }
+
+}
+
+/* Extra extra large devices (1400px and up)*/
+@media (min-width: 1400px) {
+
+    @for $i from 0 through 50 {
+
+        .border-radius-xxl-#{$i} {
+            -webkit-border-radius: #{$i}px !important;
+            border-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-left-xxl-#{$i} {
+            -webkit-border-top-left-radius: #{$i}px !important;
+            border-top-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-left-xxl-#{$i} {
+            -webkit-border-bottom-left-radius: #{$i}px !important;
+            border-bottom-left-radius: #{$i}px !important;
+        }
+
+        .border-radius-top-right-xxl-#{$i} {
+            -webkit-border-top-right-radius: #{$i}px !important;
+            border-top-right-radius: #{$i}px !important;
+        }
+
+        .border-radius-bottom-right-xxl-#{$i} {
+            -webkit-border-bottom-right-radius: #{$i}px !important;
+            border-bottom-right-radius: #{$i}px !important;
+        }
+
+    }
+
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+
+}
+
+//Border Radius End

@@ -1,0 +1,579 @@
+//  Width & Height Start
+// Viewport
+//.wv-xxl-#{$i} {
+//  width: $i*1vw !important;
+//}
+//
+//.mnwv-xxl-#{$i} {
+//  min-width: $i*1vw !important;
+//}
+//
+//.mwv-xxl-#{$i} {
+//  max-width: $i*1vw !important;
+//}
+//
+//.hv-xxl-#{$i} {
+//  height: $i*1vh !important;
+//}
+//
+//.mnhv-xxl-#{$i} {
+//  min-height: $i*1vh !important;
+//}
+//
+//.mhv-xxl-#{$i} {
+//  max-height: $i*1vh !important;
+//}
+
+@for $i from 0 through 100 {
+  // pixel starts
+  .wx-#{$i} {
+    width: $i*1px !important;
+  }
+
+  .hx-#{$i} {
+    height: $i*1px !important;
+  }
+  // pixel ends
+
+  // %age start
+  .wp-#{$i} {
+    width: $i*1% !important;
+  }
+
+  .hp-#{$i} {
+    height: $i*1% !important;
+  }
+
+  // /%age ends
+
+  @if ($i%5 == 0) {
+    // pixel starts
+    .mnwx-#{$i} {
+      min-width: $i*1px !important;
+    }
+
+    .mwx-#{$i} {
+      max-width: $i*1px !important;
+    }
+
+    .mnhx-#{$i} {
+      min-height: $i*1px !important;
+    }
+
+    .mhx-#{$i} {
+      max-height: $i*1px !important;
+    }
+    // pixel ends
+
+    // %age start
+    .mnwp-#{$i} {
+      min-width: $i*1% !important;
+    }
+
+    .mwp-#{$i} {
+      max-width: $i*1% !important;
+    }
+
+    .mnhp-#{$i} {
+      min-height: $i*1% !important;
+    }
+
+    .mhp-#{$i} {
+      max-height: $i*1% !important;
+    }
+    // /%age ends
+
+  }
+
+}
+
+.w-auto {
+  width: auto !important;
+}
+
+.mnw-unset {
+  min-width: unset !important;
+}
+
+.mw-unset {
+  max-width: unset !important;
+}
+
+.h-auto {
+  height: auto !important;
+}
+
+.mnh-unset {
+  min-height: unset !important;
+}
+
+.mh-unset {
+  max-height: unset !important;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+  @for $i from 0 through 100 {
+    // pixel starts
+    .wx-sm-#{$i} {
+      width: $i*1px !important;
+    }
+
+    .hx-sm-#{$i} {
+      height: $i*1px !important;
+    }
+    // /pixel ends
+
+    // %age starts
+    .wp-sm-#{$i} {
+      width: $i*1% !important;
+    }
+
+    .hp-sm-#{$i} {
+      height: $i*1% !important;
+    }
+    // /%age ends
+
+    @if ($i%5 == 0) {
+      // pixels ends
+      .mnwx-sm-#{$i} {
+        min-width: $i*1px !important;
+      }
+
+      .mwx-sm-#{$i} {
+        max-width: $i*1px !important;
+      }
+
+      .mnhx-sm-#{$i} {
+        min-height: $i*1px !important;
+      }
+
+      .mhx-sm-#{$i} {
+        max-height: $i*1px !important;
+      }
+      // pixels starts
+
+      // %age start
+      .mnwp-sm-#{$i} {
+        min-width: $i*1% !important;
+      }
+
+      .mwp-sm-#{$i} {
+        max-width: $i*1% !important;
+      }
+
+      .mnhp-sm-#{$i} {
+        min-height: $i*1% !important;
+      }
+
+      .mhp-sm-#{$i} {
+        max-height: $i*1% !important;
+      }
+      // %age ends
+
+    }
+
+  }
+
+  .w-sm-auto {
+    width: auto !important;
+  }
+
+  .mnw-sm-unset {
+    min-width: unset !important;
+  }
+
+  .mw-sm-unset {
+    max-width: unset !important;
+  }
+
+  .h-sm-auto {
+    height: auto !important;
+  }
+
+  .mnh-sm-unset {
+    min-height: unset !important;
+  }
+
+  .mh-sm-unset {
+    max-height: unset !important;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+  @for $i from 0 through 100 {
+
+    // pixels starts
+    .wx-md-#{$i} {
+      width: $i*1px !important;
+    }
+
+    .hx-md-#{$i} {
+      height: $i*1px !important;
+    }
+    // /pixel ends
+
+    // %age starts
+
+    .wp-md-#{$i} {
+      width: $i*1% !important;
+    }
+
+    .hp-md-#{$i} {
+      height: $i*1% !important;
+    }
+    // /%age ends
+
+    @if ($i%5 == 0) {
+      // pixel starts
+      .mnwx-md-#{$i} {
+        min-width: $i*1px !important;
+      }
+
+      .mwx-md-#{$i} {
+        max-width: $i*1px !important;
+      }
+
+      .mnhx-md-#{$i} {
+        min-height: $i*1px !important;
+      }
+
+      .mhx-md-#{$i} {
+        max-height: $i*1px !important;
+      }
+      // pixels ends
+
+      // %age start
+      .mnwp-md-#{$i} {
+        min-width: $i*1% !important;
+      }
+
+      .mwp-md-#{$i} {
+        max-width: $i*1% !important;
+      }
+
+      .mnhp-md-#{$i} {
+        min-height: $i*1% !important;
+      }
+
+      .mhp-md-#{$i} {
+        max-height: $i*1% !important;
+      }
+      // %age ends
+
+    }
+
+  }
+
+  .w-md-auto {
+    width: auto !important;
+  }
+
+  .mnw-md-unset {
+    min-width: unset !important;
+  }
+
+  .mw-md-unset {
+    max-width: unset !important;
+  }
+
+  .h-md-auto {
+    height: auto !important;
+  }
+
+  .mnh-md-unset {
+    min-height: unset !important;
+  }
+
+  .mh-md-unset {
+    max-height: unset !important;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  @for $i from 0 through 100 {
+    // pixel starts
+    .wx-lg-#{$i} {
+      width: $i*1px !important;
+    }
+
+    .hx-lg-#{$i} {
+      height: $i*1px !important;
+    }
+    // pixel ends
+
+    // %age starts
+    .wp-lg-#{$i} {
+      width: $i*1% !important;
+    }
+
+    .hp-lg-#{$i} {
+      height: $i*1% !important;
+    }
+    // /%age ends
+
+    @if ($i%5 == 0) {
+      // pixel starts
+      .mnwx-lg-#{$i} {
+        min-width: $i*1px !important;
+      }
+
+      .mwx-lg-#{$i} {
+        max-width: $i*1px !important;
+      }
+
+      .mnhx-lg-#{$i} {
+        min-height: $i*1px !important;
+      }
+
+      .mhx-lg-#{$i} {
+        max-height: $i*1px !important;
+      }
+      // pixels ends
+
+      // %age start
+      .mnwp-lg-#{$i} {
+        min-width: $i*1% !important;
+      }
+
+      .mwp-lg-#{$i} {
+        max-width: $i*1% !important;
+      }
+
+      .mnhp-lg-#{$i} {
+        min-height: $i*1% !important;
+      }
+
+      .mhp-lg-#{$i} {
+        max-height: $i*1% !important;
+      }
+      // %age ends
+
+    }
+
+  }
+
+  .w-lg-auto {
+    width: auto !important;
+  }
+
+  .mnw-lg-unset {
+    min-width: unset !important;
+  }
+
+  .mw-lg-unset {
+    max-width: unset !important;
+  }
+
+  .h-lg-auto {
+    height: auto !important;
+  }
+
+  .mnh-lg-unset {
+    min-height: unset !important;
+  }
+
+  .mh-lg-unset {
+    max-height: unset !important;
+  }
+
+}
+
+/* Customized Media Queries (min Width, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+  @for $i from 0 through 100 {
+    // pixel starts
+    .wx-xl-#{$i} {
+      width: $i*1px !important;
+    }
+
+    .hx-xl-#{$i} {
+      height: $i*1px !important;
+    }
+    // pixel ends
+
+    // %age start
+    .wp-xl-#{$i} {
+      width: $i*1% !important;
+    }
+
+    .hp-xl-#{$i} {
+      height: $i*1% !important;
+    }
+    // /%age ends
+
+    @if ($i%5 == 0) {
+      // pixel starts
+      .mnwx-xl-#{$i} {
+        min-width: $i*1px !important;
+      }
+
+      .mwx-xl-#{$i} {
+        max-width: $i*1px !important;
+      }
+
+      .mnhx-xl-#{$i} {
+        min-height: $i*1px !important;
+      }
+
+      .mhx-xl-#{$i} {
+        max-height: $i*1px !important;
+      }
+      // pixels ends
+
+      // %age start
+      .mnwp-xl-#{$i} {
+        min-width: $i*1% !important;
+      }
+
+      .mwp-xl-#{$i} {
+        max-width: $i*1% !important;
+      }
+
+      .mnhp-xl-#{$i} {
+        min-height: $i*1% !important;
+      }
+
+      .mhp-xl-#{$i} {
+        max-height: $i*1% !important;
+      }
+      // %age ends
+
+    }
+
+  }
+
+  .w-xl-auto {
+    width: auto !important;
+  }
+
+  .mnw-xl-unset {
+    min-width: unset !important;
+  }
+
+  .mw-xl-unset {
+    max-width: unset !important;
+  }
+
+  .h-xl-auto {
+    height: auto !important;
+  }
+
+  .mnh-xl-unset {
+    min-height: unset !important;
+  }
+
+  .mh-xl-unset {
+    max-height: unset !important;
+  }
+
+}
+
+/* Extra extra large devices (1400px and up)*/
+@media (min-width: 1400px) {
+
+  @for $i from 0 through 100 {
+    // pixel starts
+    .wx-xxl-#{$i} {
+      width: $i*1px !important;
+    }
+
+    .hx-xxl-#{$i} {
+      height: $i*1px !important;
+    }
+    // pixel ends
+
+    // %age start
+    .wp-xxl-#{$i} {
+      width: $i*1% !important;
+    }
+
+    .hp-xxl-#{$i} {
+      height: $i*1% !important;
+    }
+    // /%age ends
+
+    @if ($i%5 == 0) {
+      // pixel starts
+      .mnwx-xxl-#{$i} {
+        min-width: $i*1px !important;
+      }
+
+      .mwx-xxl-#{$i} {
+        max-width: $i*1px !important;
+      }
+
+      .mnhx-xxl-#{$i} {
+        min-height: $i*1px !important;
+      }
+
+      .mhx-xxl-#{$i} {
+        max-height: $i*1px !important;
+      }
+      // pixels ends
+
+      // %age start
+      .mnwp-xxl-#{$i} {
+        min-width: $i*1% !important;
+      }
+
+      .mwp-xxl-#{$i} {
+        max-width: $i*1% !important;
+      }
+
+      .mnhp-xxl-#{$i} {
+        min-height: $i*1% !important;
+      }
+
+      .mhp-xxl-#{$i} {
+        max-height: $i*1% !important;
+      }
+      // %age ends
+
+    }
+
+  }
+
+  .w-xxl-auto {
+    width: auto !important;
+  }
+
+  .mnw-xxl-unset {
+    min-width: unset !important;
+  }
+
+  .mw-xxl-unset {
+    max-width: unset !important;
+  }
+
+  .h-xxl-auto {
+    height: auto !important;
+  }
+
+  .mnh-xxl-unset {
+    min-height: unset !important;
+  }
+
+  .mh-xxl-unset {
+    max-height: unset !important;
+  }
+
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+}
+
+//  /Width & Height End
